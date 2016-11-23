@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+#nav2 *
+{
+  z-index:1;
+  position:relative;
+}
 
 #nav2 > ul
 {

@@ -3,6 +3,8 @@
   width:100%;
   background-color:#000000;
   height:400px;
+  z-index:0;
+  position:relative;
 }
 
 #image-scroller > img
