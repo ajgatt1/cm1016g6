@@ -1,0 +1,76 @@
+#nav2 > ul
+{
+  list-style:none;
+  margin:0;
+  padding:0;
+
+  display:table;
+  margin:auto;
+}
+
+#nav2 > ul > li
+{
+  display:table-cell;
+  padding:4px;
+  width:12%;
+  position:relative;
+}
+
+#nav2 > ul > li > a
+{
+  text-decoration:none;
+  text-align:center;
+  
+  border-width:2px;
+  border-style:solid;
+  border-color:#770077;
+  
+  border-radius:5px;
+  
+  color:#770077;
+  
+  display:block;
+  width:100%;
+  height:3em;
+  
+}
+
+#nav2 > ul > li > a:hover
+{
+  background-color:#ffccff;
+}
+
+/* Submenu options below here */
+
+#nav2 .submenu
+{
+  position:absolute;
+  visibility:hidden;
+  display:block;
+  
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+#nav2 .submenu > li
+{
+  border-width:1px;
+  border-style:solid;
+  border-color:#000000;
+  background-color:#ffffff;
+  margin-left:4px;
+}
+
+#nav2 .submenu > li > a
+{
+  display:block;
+  text-decoration:none;
+  color:#770077;
+  padding:4px;
+}
+
+#nav2 .submenu > li > a:hover
+{
+  background-color:#ffccff;
+}

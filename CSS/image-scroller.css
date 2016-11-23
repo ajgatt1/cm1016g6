@@ -1,0 +1,33 @@
+#image-scroller
+{
+  width:100%;
+  background-color:#000000;
+  height:400px;
+}
+
+#image-scroller > img
+{
+  display:block;
+  margin:auto;
+  height:100%;
+}
+
+#image-scroller > a
+{
+  height:100%;
+  text-decoration:none;
+  color:#ffffff;
+  font-size:24pt;
+  vertical-align:middle;
+  display:block;
+}
+
+#jqprevimage
+{
+  float:left;
+}
+
+#jqnextimage
+{
+  float:right;
+}
