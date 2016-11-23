@@ -3,6 +3,17 @@ var currentImageNumber = 0;
 var images = ["Atrium-roof.jpg", "Entrance-to-The-Sir-Ian-Wood-Building.jpg", "garthdee-1.jpg", "garthdee-4.jpg", "Inside-atrium2.jpg"];
 var displayImage = "#image-scroller > img";
 
+function initialiseImageScroller()
+{
+  $("#image-scroller").append("<a id=\"jqprevimage\" href=\"javascript:void(0);\">\n" +
+                              "<img alt=\"scroll-left\" src=\"Images/image-scroller/left.png\" />\n" + 
+                              "</a>\n" +
+                              "<a id=\"jqnextimage\" href=\"javascript:void(0);\">\n" + 
+                              "<img alt=\"scroll-right\" src=\"Images/image-scroller/right.png\" />" + 
+                              "</a>\n" +
+                              "<img src=\"Images/inside-rgu/" + images[0] + "\" />\n");
+}
+
 function setDisplayedImage(imageId)
 {
   if (imageId < 0)
@@ -43,6 +54,8 @@ function backOneImage()
 
 $(document).ready(function()
 { 
+  initialiseImageScroller();
+  
   $("#jqnextimage").click(function()
   {
     advanceImage();
