@@ -20,12 +20,11 @@ body{
 #rgulinks li a{
 	text-decoration: none;
 	color: darkgray;
-	margin: 2px;
+	margin: 8px;
 }
 #rgulinks li a:hover{
 	text-decoration: none;
 	color: darkmagenta;
-	margin: 5px;
 }
 
 header{
