@@ -85,63 +85,19 @@ footer{
 	color: white;
 
 }
-#facebook{
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-	text-decoration: none;
-}
-#twitter{
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-	text-decoration: none;
-}
-#youtube{
+a.socialmedia img{
     height: 30px;
     width: 30px;
     margin: 10px;
 }
-#insta{
-	height: 30px;
-	width: 30px;
-	margin: 10px;
-}
-#facebook{
-	opacity: 0.5;
+a.socialmedia{
+    text-decoration: none;
+    opacity: 0.5;
 	filter: alpha(opacity=50); /* For IE8 and earlier */
 }
-
-#facebook:hover {
-	opacity: 1.0;
-	filter: alpha(opacity=100); /* For IE8 and earlier */
-}
-#twitter{
-	opacity: 0.5;
-	filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
-#twitter:hover {
-	opacity: 1.0;
-	filter: alpha(opacity=100); /* For IE8 and earlier */
-}
-#youtube {
-	opacity: 0.5;
-	filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
-#youtube:hover {
-	opacity: 1.0;
-	filter: alpha(opacity=100); /* For IE8 and earlier */
-}
-#insta{
-	opacity: 0.5;
-	filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
-#insta:hover {
-	opacity: 1.0;
-	filter: alpha(opacity=100); /* For IE8 and earlier */
+a.socialmedia:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 hr {
 	display: block;
