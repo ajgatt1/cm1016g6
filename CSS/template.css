@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("navbar.css");
 @import url("image-scroller.css");
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 /* CSS Document */
 
 body{
@@ -150,4 +151,7 @@ hr {
 	margin-right: auto;
 	border-style: inset;
 	border-width: 1px;
+}
+#title{
+	font-family: "Oswald";
 }
