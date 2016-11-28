@@ -109,6 +109,11 @@ hr {
 	font-family: "Oswald";
 }
 
+.articleTitle{
+	font-family: "Oswald";
+    color: #781C7D;
+}
+
 .article{
 	width:300px;
 	height:150px;
