@@ -108,3 +108,20 @@ hr {
 #title{
 	font-family: "Oswald";
 }
+
+.article{
+	width:300px;
+	height:150px;
+	border-color: #781C7D;
+	border-style: solid;
+}
+
+
+.article2{
+	width:300px;
+	height:150px;
+	border-color: #781C7D;
+	border-top-color: white;
+	border-style: solid;
+
+}
