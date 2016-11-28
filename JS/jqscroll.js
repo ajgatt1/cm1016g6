@@ -1,6 +1,6 @@
 // Yes I know this is a global variable, I'll have to look around for alternatives
 var currentImageNumber = 0;
-var images = ["Atrium-roof.jpg", "Entrance-to-The-Sir-Ian-Wood-Building.jpg", "garthdee-1.jpg", "garthdee-4.jpg", "Inside-atrium2.jpg"];
+var images = ["image1.jpg", "Entrance-to-The-Sir-Ian-Wood-Building.jpg", "garthdee-1.jpg", "garthdee-4.jpg", "Inside-atrium2.jpg"];
 var displayImage = "#image-scroller > img";
 
 function initialiseImageScroller()
