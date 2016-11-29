@@ -4,104 +4,11 @@
     <meta charset="UTF-8">
     <title>RGU School of Computing Science and Digital Media</title>
     
-    <!-- Stylesheets -->
-    
-    <link rel="stylesheet" href="CSS/template.css" />
-    <link rel="stylesheet" href="CSS/navbar.css" />
-    <link rel="stylesheet" href="CSS/image-scroller.css" />
-    <link rel="stylesheet" href="CSS/unsemantic-grid-responsive-tablet.css" />
-    <link rel="stylesheet" href="CSS/welcome-news.css"/>
-
-    
-    <!-- Favicon -->
-    <link type="image/png" rel="icon" href="Images/favicon.png" />
-    
-    <!-- Various scripts -->
-    <script type="text/javascript" src="JS/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="JS/jqmenu.js"></script>
-    <script type="text/javascript" src="JS/jqscroll.js"></script>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . "/php/htmlhead.php"?>
 </head>
 
 <body>
-<header>
-    <div id="imageContainer">
-        <a href="index.html">
-        <img src="Images/csdm.png" id="LOGO" alt="Robert Gordon University Aberdeen - School of Computing Science and Digital Media"/>
-        </a>
-    </div>
-    <div id="quicklinkContainer">
-        <ul id="rgulinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="https://you.rgu.ac.uk/">RGyou</a></li>
-            <li><a href="#">Staff and Current Students</a></li>
-        </ul>
-        <input type="submit" id="mySubmit" value="Search">
-        <input type="search" id="mySearch" placeholder="Search...">
-    </div>
-</header>
-        <nav id="nav2">
-          <ul>
-	        <li>
-              <a href="index.html">Home</a>
-	        </li>
-	    
-		    <li>
-              <a href="About.html">About us</a>
-          
-              <ul class="submenu">
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Staff list</a></li>
-                <li><a href="#">Privacy</a></li>
-              </ul>
-            </li>
-          
-		    <li>
-              <a href="News.html">News &amp; Research</a>
-          
-              <ul class="submenu">
-                <li><a href="#">Latest News</a></li>
-                <li><a href="#">Research</a></li>
-                <li><a href="#">Internships</a></li>
-              </ul>
-		    </li>
-		
-		    <li>
-              <a href="Courses.html">Our Courses</a>
-		
-		      <ul class="submenu">
-                <li><a href="#">Prospectus</a></li>
-                <li><a href="#">Part time</a></li>
-                <li><a href="#">Full time</a></li>
-                <li><a href="#">Distance Learning</a></li>
-              </ul>
-		    </li>
-		
-	    	<li>
-              <a href="Support.html">Support</a>
-          
-              <ul class="submenu">
-                <li><a href="#">Software</a></li>
-                <li><a href="#">Research Rooms</a></li>
-                <li><a href="#">Student Support</a></li>
-              </ul>
-            </li>
-        
-            <li>
-              <a href="Resources.html">RGU Resources</a>
-          
-              <ul class="submenu">
-                <li><a href="http://campusmoodle.rgu.ac.uk/" target="_blank">Campus Moodle</a></li>
-                <li><a href="http://you.rgu.ac.uk/" target="_blank">RGyoU</a></li>
-                <li><a href="http://www.rgu.ac.uk/file/rgu-garthdee-campus-map-pdf-434kb" target="_blank">Campus Map</a></li>
-              </ul>
-            </li>
-        
-            <li>
-              <a href="Talent.html">Talent Exchange</a>
-            </li>
-	      </ul>
-        </nav>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/php/topmenu.php' ?>
 <main class="grid-container">
         <section id="image-scroller">
             <!-- Intentionally blank. jqscroll.js adds code to here when the document has been loaded -->
@@ -109,7 +16,7 @@
     <section class="grid-66">
         <!--welcome section begin-->
         <h2>Welcome to The School of Computing and Digital Media </h2>
-        <img src="Images/lecturers.jpeg" alt="lecturers" id="lecturers"/>
+        <img src="images/lecturers.jpeg" alt="lecturers" id="lecturers"/>
         <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
         <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
         <h3>Lorem Ipsum Dolor Sit</h3>
@@ -118,7 +25,7 @@
         <h3>Lorem ipsum Dolor Sit</h3>
         <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
         <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
-        <img src="Images/SIWB-corridor.jpg" alt="SIWB Corridor" id="SIWBCorridor" />
+        <img src="images/SIWB-corridor.jpg" alt="SIWB Corridor" id="SIWBCorridor" />
 
 
     </section>
@@ -132,7 +39,7 @@
         <article>
             <h3>Latest News</h3>
             <h4>Lorem Ipsum Dolor</h4>
-            <img src="Images/winners.JPG" alt="winners" id="winners"/>
+            <img src="images/winners.JPG" alt="winners" id="winners"/>
             <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
             <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
         </article>
@@ -142,7 +49,7 @@
         <article>
             <h3>Upcoming Events</h3>
             <h4>Lorem Ipsum Dolor</h4>
-            <img src="Images/sirianwoodbuilding.jpg" alt="sirianwoodbuilding" id="sirianwoodbuilding" />
+            <img src="images/sirianwoodbuilding.jpg" alt="sirianwoodbuilding" id="sirianwoodbuilding" />
             <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
             <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
             <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
@@ -172,38 +79,6 @@
 
         
 </main>
-<footer>
-    <section>
-        <hr>
-        <h3 id="title">Connect with us:</h3>
-        <hr id="line2">
-        <a class="socialmedia" href="https://www.facebook.com/robertgordonuniversity/" target="_blank">
-            <img id="facebook" src="Images/facebooklogo.jpg" alt="Facebook">
-        </a>
-        <a class="socialmedia" href="https://twitter.com/RobertGordonUni" target="_blank">
-            <img id="twitter" src="Images/twitterlogo.png" alt="Twitter">
-        </a>
-        <a class="socialmedia" href="https://www.instagram.com/robertgordonuni/" target="_blank">
-            <img id="insta" src="Images/instagramlogo.png" alt="Instagram">
-        </a>
-        <a class="socialmedia" href="https://www.youtube.com/user/RobertGordonUni" target="_blank">
-            <img id="youtube" src="Images/youtubelogo.png" alt="YouTube">
-        </a>
-    </section>
-    <section id="directorycont">
-        <tr>
-            <a href="#">Accessibility</a>
-            <a href="#">Site Map</a>
-            <a href="#">Disclaimer</a>
-            <a href="#">Freedom of information</a>
-            <a href="#">Privacy and Cookie Statement</a>
-            <a href="#">Complaints</a>
-            <a href="#">Fine copy</a>
-            <a href="#">Copywrite</a>
-    </section>
-    <section id="copywrite">
-        <h6>Copywrite &copy Apollo Jenny 13 (Robert Gordons University)</h6>
-    </section>
-</footer>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php"; ?>
 </body>
 </html>
