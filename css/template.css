@@ -22,13 +22,13 @@ body > main
 }
 
 #rgulinks li{
-		list-style-type: none;
-		text-decoration: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		display: inline;
-	}
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline;
+}
 #rgulinks li a{
 	text-decoration: none;
 	color: darkgray;
@@ -57,13 +57,13 @@ header #quicklinkContainer{
 #mySearch{
 	float: right;
 	color: #770077;
-    border-radius: 10px;
+	border-radius: 10px;
 }
 #mySubmit{
 	float: right;
 	background-color: #770077;
 	color: white;
-    border-radius: 10px;
+	border-radius: 10px;
 	border-color: white;
 }
 #maincontainer{
@@ -73,7 +73,7 @@ footer{
 	background-color: white;
 	color: darkmagenta;
 	text-align: center;
-    border-radius: 5px;
+	border-radius: 5px;
 	height: 300px;
 }
 
@@ -89,24 +89,24 @@ footer{
 }
 
 #copywrite{
-    background-color: black;
-    border-radius: 5px;
+	background-color: black;
+	border-radius: 5px;
 	color: white;
 
 }
 a.socialmedia img{
-    height: 30px;
-    width: 30px;
-    margin: 10px;
+	height: 30px;
+	width: 30px;
+	margin: 10px;
 }
 a.socialmedia{
-    text-decoration: none;
-    opacity: 0.5;
+	text-decoration: none;
+	opacity: 0.5;
 	filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 a.socialmedia:hover{
-  opacity: 1.0;
-  filter: alpha(opacity=100); /* For IE8 and earlier */
+	opacity: 1.0;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 hr {
 	display: block;
@@ -121,24 +121,26 @@ hr {
 	font-family: "Oswald";
 }
 
-.articleTitle{
+.newsSnippet h3{
 	font-family: "Oswald";
-    color: #781C7D;
+	color: #781C7D;
+	margin-bottom: -5px;
+	margin-left: 5px;
+	text-decoration:underline;
+
 }
 
-.article{
+.newsSnippet{
 	width:300px;
 	height:150px;
 	border-color: #781C7D;
 	border-style: solid;
 }
 
-
-.article2{
-	width:300px;
-	height:150px;
-	border-color: #781C7D;
-	border-top-color: white;
-	border-style: solid;
+.newsSnippet p {
+	margin-left:5px;
 
 }
+
+
+

@@ -1,5 +1,5 @@
 var currentImageNumber = 0;
-var images = ["Entrance-to-The-Sir-Ian-Wood-Building.jpg", "garthdee-1.jpg", "garthdee-4.jpg", "Inside-atrium2.jpg"];
+var images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"];
 var displayImage = "#image-scroller > img";
 
 function initialiseImageScroller()
