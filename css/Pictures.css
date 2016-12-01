@@ -14,7 +14,7 @@
     padding-right:10px;
 }
 #SIWBCorridor {
-    width:625px;
+    width:100%;
     float:left;
     padding-right:10px;
 }
@@ -24,6 +24,6 @@
     padding-right:10px;
 }
 #staff {
-    width:200px;
+    width:100%;
     padding-right:10px;
 }
