@@ -112,10 +112,10 @@ function coverflowimages(options){
 coverflowimages({
     coverid: 'coverflow1',
     images: [
-        ['angelinasmall.jpg', 'angelina.jpg', 'Angelina Jolie, is an American actress and filmmaker, and an Academy Award winner'],
-        ['millasmall.jpg', 'milla.jpg', 'Milla Jovovich was born in Ukraine and immigrated with her parents to the United States when she\'s five.'],
-        ['josiesmall.jpg', 'josie.jpg'],
-        ['haydensmall.jpg', 'hayden.jpg', 'Hayden Panettiere is a native of New York, and first appeared in a commercial at the age of 11 months.'],
-        ['ashleysmall.jpg', 'ashley.jpg', 'Ashley was born in Granada Hills, California. She is the daughter of Naomi Judd, a country music singer and motivational speaker'] // <-- no comma after last image
+        ['Images/inside-rgu/image1.jpg', 'Our school is located in the brand new sir Ian Wood Building.'],
+        ['Images/inside-rgu/image2.jpg', 'Milla Jovovich was born in Ukraine and immigrated with her parents to the United States when she\'s five.'],
+        ['Images/inside-rgu/image3.jpg'],
+        ['Images/inside-rgu/image4.jpg', 'Digital Media Course contains use of our green screen room.']
+      // <-- no comma after last image
     ] // <-- no comma after last option
 })

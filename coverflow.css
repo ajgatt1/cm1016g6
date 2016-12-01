@@ -1,12 +1,12 @@
 /* Frame */
 
 .wrap{
-    max-width: 700px; /* Width of coverflow gallery. Should be in px. */
+    max-width: 1000px; /* Width of coverflow gallery. Should be in px. */
 }
 
 .frame {
-    height: 250px; /* height of each item */
-    line-height: 250px; /* height of each item */
+    height: 400px; /* height of each item */
+    line-height: 400px; /* height of each item */
     overflow: hidden;
 }
 .frame ul {
@@ -18,7 +18,7 @@
 }
 .frame ul li {
     float: left;
-    width: 227px; /* width of each item */
+    width: 1000px; /* width of each item */
     height: 100%;
     margin: 0 1px 0 0;
     padding: 0;

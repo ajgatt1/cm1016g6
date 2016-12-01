@@ -6,15 +6,15 @@
 
     <link rel="stylesheet" href="css/template.css" />
     <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/image-scroller.css" />
+    <link rel="stylesheet" href="coverflow.css" />
     <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css" />
     <link rel="stylesheet" href="css/Pictures.css"/>
 
     <link type="image/png" rel="icon" href="images/favicon.png" />
 
-    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="js/jqmenu.js"></script>
-    <script type="text/javascript" src="js/jqscroll.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="sly.js"></script>
+
 
 </head>
 
@@ -102,8 +102,37 @@
 </nav>
 
 <main class="grid-container">
-    <section id="image-scroller">
-        <!-- Intentionally blank. jqscroll.js adds code to here when the document has been loaded -->
+    <!-- Got this code from Dynamic Drive -->
+    <section>
+        <div class="wrap" id="coverflow1">
+
+            <div class="scrollbar">
+                <div class="handle">
+                    <div class="mousearea"></div>
+                </div>
+            </div>
+
+            <div class="frame coverflow">
+                <ul class="clearfix">
+                    <li>Holder</li>
+                </ul>
+            </div>
+
+            <ul class="pages"></ul>
+
+        </div>
+
+
+        <!-- Following script should always follow Coverflow HTML markup, or even better, added to the bottom of the page -->
+        <script src="coverflow.js">
+
+            /***********************************************
+             * Coverflow Image Gallery: Dynamic Drive DHTML code library (www.dynamicdrive.com)
+             * Uses Sly scrolling lib
+             * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+             ***********************************************/
+
+        </script>
     </section>
     <section class="grid-66">
         <!--welcome section begin-->

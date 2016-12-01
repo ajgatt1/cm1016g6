@@ -5,10 +5,7 @@
 body{
 	margin-top:0;
 	margin-bottom:0;
-	margin-left:auto;
-	margin-right:auto;
 	font-family:sans-serif;
-	max-width: 1000px;
 	background-image: url('../images/background.png');
 	background-repeat:vertical;
 	background-attachment:fixed;
@@ -19,6 +16,9 @@ body > main
 {
   background-color:#ffffff;
   padding:16px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #rgulinks li{
@@ -41,6 +41,9 @@ body > main
 
 header{
 	height: 150px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header #imageContainer{
@@ -74,7 +77,8 @@ footer{
 	color: darkmagenta;
 	text-align: center;
 	border-radius: 5px;
-	height: 300px;
+	height: 200px;
+	max-width: 3000px;
 }
 
 #directorycont a{
@@ -119,6 +123,7 @@ hr {
 }
 #title{
 	font-family: "Oswald";
+	color: #aaaaaa;
 }
 
 .newsSnippet h3{
