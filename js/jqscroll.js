@@ -1,3 +1,5 @@
+// For the image scroller on the website
+
 var currentImageNumber = 0;
 var images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"];
 var displayImage = "#image-scroller > img";
