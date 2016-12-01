@@ -147,5 +147,11 @@ hr {
 
 }
 
+#exchangeVid {
+    margin:0px auto;
+    margin-top: 25px;
+}
 
-
+#exchangeText h3 {
+    color: #781C7D;
+}
