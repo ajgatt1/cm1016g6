@@ -109,6 +109,8 @@ function coverflowimages(options){
 
 ///////// Initialization code ////////////////
 
+// Original code
+/*
 coverflowimages({
     coverid: 'coverflow1',
     images: [
@@ -119,3 +121,15 @@ coverflowimages({
       // <-- no comma after last image
     ] // <-- no comma after last option
 })
+*/
+
+coverflowimages({
+    coverid: 'coverflow1',
+    images: [
+        ['images/inside-rgu/image1.jpg', 'images/inside-rgu/image1.jpg'],
+        ['images/inside-rgu/image2.jpg', 'images/inside-rgu/image2.jpg'],
+        ['images/inside-rgu/image3.jpg', 'images/inside-rgu/image3.jpg'],
+        ['images/inside-rgu/image4.jpg', 'images/inside-rgu/image4.jpg']
+      // <-- no comma after last image
+    ] // <-- no comma after last option
+});
