@@ -45,7 +45,7 @@
   
 }
 
-#nav2 > ul > li > a:hover
+#nav2 > ul > li > a:hover, #nav2 > ul > li > a.current-page-highlight
 {
   background-color:#ffccff;
 }
