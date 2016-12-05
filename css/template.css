@@ -155,3 +155,13 @@ hr {
 #exchangeText h3 {
     color: #781C7D;
 }
+
+.courseInfo {
+	width:46%;
+	display:inline-block;
+	background-color:#996699;
+}
+
+.mainImage{
+  width:100%;
+}
