@@ -165,3 +165,47 @@ hr {
 .mainImage{
   width:100%;
 }
+
+#article1{
+	 width:100%;
+	 height:100%;
+	 border-color: #781C7D;
+	 border-style: outset;
+	 margin-bottom: 20px;
+	 padding-left:10px;
+	 padding-right:10px;
+ }
+
+#article2{
+	width:100%;
+	height:100%;
+	border-color: #781C7D;
+	border-style: inset;
+	margin-bottom: 20px;
+	padding-left:10px;
+	padding-right:10px;
+
+}
+#SIWBCorridor {
+	margin-bottom: 20px;
+
+}
+
+#article3 {
+	width: 100%;
+	height: 100%;
+	border-color: #781C7D;
+	border-style: outset;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#article4{
+	width:100%;
+	height:100%;
+	border-color: #781C7D;
+	border-style: inset;
+	margin-bottom: 20px;
+	padding-left:10px;
+	padding-right:10px;
