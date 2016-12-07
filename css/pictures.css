@@ -31,3 +31,9 @@
     width:50%;
     padding-right;10px;
 }
+
+#library {
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
