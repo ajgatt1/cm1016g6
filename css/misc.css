@@ -1,4 +1,4 @@
-
+/*
 .newsSnippet h3{
 	font-family: "Oswald";
 	color: #781C7D;
@@ -19,7 +19,7 @@
 	margin-left:5px;
 
 }
-
+*/
 #exchangeVid {
     margin:0px auto;
     margin-top: 25px;
@@ -39,51 +39,22 @@
   width:100%;
 }
 
-#article1{
-	 width:100%;
-	 height:100%;
-	 border-color: #781C7D;
-	 border-style: outset;
-	 margin-bottom: 20px;
-	 padding-left:10px;
-	 padding-right:10px;
- }
-
-#article2{
-	width:100%;
-	height:100%;
-	border-color: #781C7D;
-	border-style: inset;
-	margin-bottom: 20px;
-	padding-left:10px;
-	padding-right:10px;
-
+.article
+{
+  width:100%;
+  height:100%;
+  border-color: #781C7D;
+  border-style: outset;
+  margin-bottom: 20px;
+  padding-left:5px;
+  padding-right:5px;
 }
+
 #SIWBCorridor {
 	margin-bottom: 20px;
 
 }
 
-#article3 {
-	width: 100%;
-	height: 100%;
-	border-color: #781C7D;
-	border-style: outset;
-	margin-bottom: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-}
-
-#article4 {
-	width: 100%;
-	height: 100%;
-	border-color: #781C7D;
-	border-style: inset;
-	margin-bottom: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
 #contactInfo{
 	float: right;
 }
