@@ -45,9 +45,11 @@
   
 }
 
-#nav2 > ul > li > a:hover, #nav2 > ul > li > a.current-page-highlight
+/* This background colour is applied when links are moused over, in focus or linking to the same page that the user is currently on. */
+#nav2 > ul > li > a:hover, #nav2 > ul > li > a.current-page-highlight, #nav2 > ul > li > a:focus
 {
   background-color:#ffccff;
+  outline:none;
 }
 
 /* Submenu options below here */
