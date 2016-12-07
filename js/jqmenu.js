@@ -17,6 +17,7 @@ $(document).ready(function()
   $("nav > ul > li").mouseenter(function()
   {
     showSubmenu(this);
+    hideSubmenu($(this).siblings()); // Hides all of the other submenus.
   });
   
   $("nav > ul > li").mouseleave(function()

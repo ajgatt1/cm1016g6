@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-#nav2
+nav
 {
   z-index:1;
   position:relative;
 }
 
-#nav2 > ul
+nav > ul
 {
   list-style:none;
   margin:0;
@@ -16,7 +16,7 @@
   margin:auto;
 }
 
-#nav2 > ul > li
+nav > ul > li
 {
   display:table-cell;
   padding:4px;
@@ -24,7 +24,7 @@
   position:relative;
 }
 
-#nav2 > ul > li > a
+nav > ul > li > a
 {
   text-decoration:none;
   text-align:center;
@@ -46,7 +46,9 @@
 }
 
 /* This background colour is applied when links are moused over, in focus or linking to the same page that the user is currently on. */
-#nav2 > ul > li > a:hover, #nav2 > ul > li > a.current-page-highlight, #nav2 > ul > li > a:focus
+nav > ul > li > a:hover,
+nav > ul > li > a.current-page-highlight,
+nav > ul > li > a:focus
 {
   background-color:#ffccff;
   outline:none;
@@ -54,7 +56,7 @@
 
 /* Submenu options below here */
 
-#nav2 .submenu
+nav .submenu
 {
   position:absolute;
   visibility:hidden;
@@ -65,7 +67,7 @@
   padding:0;
 }
 
-#nav2 .submenu > li
+nav .submenu > li
 {
   border-width:1px;
   border-style:solid;
@@ -78,7 +80,7 @@
   width: 7.5em;
 }
 
-#nav2 .submenu > li > a
+nav .submenu > li > a
 {
   display:block;
   text-decoration:none;
@@ -86,7 +88,8 @@
   padding:10px;
 }
 
-#nav2 .submenu > li > a:hover, #nav2 .submenu > li > a:focus
+nav .submenu > li > a:hover,
+nav .submenu > li > a:focus
 {
   background-color:#ffccff;
   border-radius: 6px;
