@@ -86,7 +86,7 @@
   padding:10px;
 }
 
-#nav2 .submenu > li > a:hover
+#nav2 .submenu > li > a:hover, #nav2 .submenu > li > a:focus
 {
   background-color:#ffccff;
   border-radius: 6px;
