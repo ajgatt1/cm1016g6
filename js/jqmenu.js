@@ -4,7 +4,6 @@ function showSubmenu(selectedItem)
 {
   $selectedSubmenu = $(selectedItem).children(".submenu")
   $selectedSubmenu.css("visibility", "visible");
-  console.log(selectedItem);
 }
 
 function hideSubmenu(selectedItem)
