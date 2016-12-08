@@ -1,143 +1,106 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Support - RGU School of Computing Science and Digital Media</title>
-        <link rel="stylesheet" href="../../css/common.css" />
-        <link rel="stylesheet" href="../../css/misc.css" />
-        <link rel="stylesheet" href="../../css/support.css"/>
-        <link rel="stylesheet" href="../../css/navbar.css" />
-        <link rel="stylesheet" href="../../css/image-scroller.css" />
-        <link rel="stylesheet" href="../../css/unsemantic-grid-responsive-tablet.css" />
-        <link rel="stylesheet" href="../../css/pictures.css"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>RGU School of Computing Science and Digital Media</title>
 
-        <link type="image/png" rel="icon" href="../../images/favicon.png" />
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/page-specific.css" />
+    <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../../css/unsemantic-grid-responsive-tablet.css" />
+    <link rel="stylesheet" href="../../css/pictures.css"/>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script type="text/javascript" src="../../js/jqmenu.js"></script>
-        <script type="text/javascript" src="../../js/jqscroll.js"></script>
-        <style type="text/css">
+    <link type="image/png" rel="icon" href="../../images/favicon.png" />
 
-            .controlstyle a{ /*links inside DIV sizecontroldiv*/
-                outline:none;
-            }
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/jqmenu.js"></script>
+</head>
+<body>
 
-            .controlstyle a img{ /*image links inside DIV sizecontroldiv*/
-                border-width:0;
-            }
+<header>
 
-            .controlstyle a.selectedcontrol img{ /*selected control's image*/
-                border-bottom:4px solid darkred;
-            }
+    <!-- Robert Gordon University logo -->
+    <a href="../../index.html">
+        <img src="../../images/csdm.png" id="rguLogo" alt="Robert Gordon University Aberdeen - School of Computing Science and Digital Media"/>
+    </a>
 
-        </style>
+    <!-- Quick link bar -->
+    <ul id="quickLinks">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="https://you.rgu.ac.uk/">RGyou</a></li>
+        <li><a href="#">Staff and Current Students</a></li>
+    </ul>
+    
+    <!-- Search box -->
+    <input type="submit" id="mySubmit" value="Search">
+    <input type="search" id="mySearch" placeholder="Search...">
+    
 
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</header>
+<nav>
+    <ul>
+        <li>
+            <a href="../../index.html">Home</a>
+        </li>
 
-        <script type="text/javascript" src="../../js/fluidtextresizer.js">
+        <li>
+            <a href="../about/index.html">About us</a>
 
-            /***********************************************
-             * Fluid Text Resizer- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-             * Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
-             * Please keep this notice intact
-             ***********************************************/
-
-        </script>
-
-        <script type="text/javascript">
-
-            var mytextsizer=new fluidtextresizer({
-                controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
-                targets: ["body"], //target elements to resize text within: ["selector1", "selector2", etc]
-                levels: 3, //number of levels users can magnify (or shrink) text
-                persist: "session", //enter "session" or "none"
-                animate: 200 //animation duration of text resize. Enter 0 to disable
-            })
-
-        </script>
-    </head>
-    <body>
-    <main>
-        <header>
-            <div id="imageContainer">
-                <a href="index.html">
-                    <img src="../../images/csdm.png" id="LOGO" alt="Robert Gordon University Aberdeen - School of Computing Science and Digital Media"/>
-                </a>
-            </div>
-            <div id="quicklinkContainer">
-                <ul id="rgulinks">
-                    <li><a href="../../index.html">Home</a></li>
-                    <li><a href="../about/index.html">About</a></li>
-                    <li><a href="https://you.rgu.ac.uk/">RGyou</a></li>
-                    <li><a href="#">Staff and Current Students</a></li>
-                </ul>
-                <input type="submit" id="mySubmit" value="Search">
-                <input type="search" id="mySearch" placeholder="Search...">
-            </div>
-        </header>
-        <nav id="nav2">
-            <ul>
-                <li>
-                    <a href="../../index.html">Home</a>
-                </li>
-
-                <li>
-                    <a href="../about/index.html">About us</a>
-
-                    <ul class="submenu">
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Staff list</a></li>
-                        <li><a href="#">Privacy</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="../news/index.html">News &amp; Research</a>
-
-                    <ul class="submenu">
-                        <li><a href="#">Latest News</a></li>
-                        <li><a href="#">Research</a></li>
-                        <li><a href="#">Internships</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="../courses/index.html">Our Courses</a>
-
-                    <ul class="submenu">
-                        <li><a href="#">Prospectus</a></li>
-                        <li><a href="#">Part time</a></li>
-                        <li><a href="#">Full time</a></li>
-                        <li><a href="#">Distance Learning</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="index.html" class="current-page-highlight">Support</a>
-
-                    <ul class="submenu">
-                        <li><a href="#">Software</a></li>
-                        <li><a href="#">Research Rooms</a></li>
-                        <li><a href="#">Student Support</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="../resources/index.html">RGU Resources</a>
-
-                    <ul class="submenu">
-                        <li><a href="http://campusmoodle.rgu.ac.uk/" target="_blank">Campus Moodle</a></li>
-                        <li><a href="http://you.rgu.ac.uk/" target="_blank">RGyoU</a></li>
-                        <li><a href="http://www.rgu.ac.uk/file/rgu-garthdee-campus-map-pdf-434kb" target="_blank">Campus Map</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="../talent/index.html">Talent Exchange</a>
-                </li>
+            <ul class="submenu">
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Staff list</a></li>
+                <li><a href="#">Privacy</a></li>
             </ul>
+        </li>
 
-        </nav>
+        <li>
+            <a href="../news/index.html">News &amp; Research</a>
+
+            <ul class="submenu">
+                <li><a href="#">Latest News</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Internships</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="../courses/index.html">Our Courses</a>
+
+            <ul class="submenu">
+                <li><a href="#">Prospectus</a></li>
+                <li><a href="#">Part time</a></li>
+                <li><a href="#">Full time</a></li>
+                <li><a href="#">Distance Learning</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="index.html" class="current-page-highlight">Support</a>
+
+            <ul class="submenu">
+                <li><a href="#">Software</a></li>
+                <li><a href="#">Research Rooms</a></li>
+                <li><a href="#">Student Support</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="../resources/index.html">RGU Resources</a>
+
+            <ul class="submenu">
+                <li><a href="http://campusmoodle.rgu.ac.uk/" target="_blank">Campus Moodle</a></li>
+                <li><a href="http://you.rgu.ac.uk/" target="_blank">RGyoU</a></li>
+                <li><a href="http://www.rgu.ac.uk/file/rgu-garthdee-campus-map-pdf-434kb" target="_blank">Campus Map</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="../talent/index.html">Talent Exchange</a>
+        </li>
+    </ul>
+
+</nav>
         <main>
             <h2>Welcome to the School of Computer Science and Digital Media support pages.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -198,40 +161,40 @@
             <p>Arbitrary link control: <a href="javascript:mytextsizer.setFontLevel(0)">Set font level to default</a>
         </main>
 
-        <footer>
-            <section>
-                <hr>
-                <h3 id="title">Connect with us:</h3>
-                <hr id="line2">
-                <a class="socialmedia" href="https://www.facebook.com/robertgordonuniversity/" target="_blank">
-                    <img id="facebook" src="../../images/facebooklogo.jpg" alt="Facebook">
-                </a>
-                <a class="socialmedia" href="https://twitter.com/RobertGordonUni" target="_blank">
-                    <img id="twitter" src="../../images/twitterlogo.png" alt="Twitter">
-                </a>
-                <a class="socialmedia" href="https://www.instagram.com/robertgordonuni/" target="_blank">
-                    <img id="insta" src="../../images/instagramlogo.png" alt="Instagram">
-                </a>
-                <a class="socialmedia" href="https://www.youtube.com/user/RobertGordonUni" target="_blank">
-                    <img id="youtube" src="../../images/youtubelogo.png" alt="YouTube">
-                </a>
-            </section>
-            <section id="directorycont">
-                <tr>
-                    <a href="#">Accessibility</a>
-                    <a href="#">Site Map</a>
-                    <a href="#">Disclaimer</a>
-                    <a href="#">Freedom of information</a>
-                    <a href="#">Privacy and Cookie Statement</a>
-                    <a href="#">Complaints</a>
-                    <a href="#">Fine Copy</a>
-                    <a href="#">Copyright</a>
-            </section>
-            <section id="Copyright">
-                <h6>Copyright &copy Apollo Jenny 13 (Robert Gordons University)</h6>
-            </section>
-        </footer>
+<footer>
+    <section id="socialMedia">
+        <hr />
+        <h3>Connect with us:</h3>
+        <hr />
+        <a href="https://www.facebook.com/robertgordonuniversity/" target="_blank">
+            <img id="facebook" src="../../images/social-media/facebooklogo.jpg" alt="Facebook">
+        </a>
+        <a href="https://twitter.com/RobertGordonUni" target="_blank">
+            <img id="twitter" src="../../images/social-media/twitterlogo.png" alt="Twitter">
+        </a>
+        <a href="https://www.instagram.com/robertgordonuni/" target="_blank">
+            <img id="insta" src="../../images/social-media/instagramlogo.png" alt="Instagram">
+        </a>
+        <a href="https://www.youtube.com/user/RobertGordonUni" target="_blank">
+            <img id="youtube" src="../../images/social-media/youtubelogo.png" alt="YouTube">
+        </a>
+    </section>
+    <section id="assortedLinks">
+        <tr>
+            <a href="#">Accessibility</a>
+            <a href="#">Site Map</a>
+            <a href="#">Disclaimer</a>
+            <a href="#">Freedom of information</a>
+            <a href="#">Privacy and Cookie Statement</a>
+            <a href="#">Complaints</a>
+            <a href="#">Fine copy</a>
+            <a href="#">Copyright</a>
+    </section>
+    <section id="copyright">
+        <h6>Copyright &copy Apollo Jenny 13 (Robert Gordons University)</h6>
+    </section>
+</footer>
 
-</main>
+
 </body>
 </html>

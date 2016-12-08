@@ -1,102 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>RGU School of Computing Science and Digital Media</title>
 
     <link rel="stylesheet" href="../../css/common.css" />
-    <link rel="stylesheet" href="../../css/homepage.css" />
+    <link rel="stylesheet" href="../../css/page-specific.css" />
     <link rel="stylesheet" href="../../css/navbar.css" />
     <link rel="stylesheet" href="../../css/unsemantic-grid-responsive-tablet.css" />
     <link rel="stylesheet" href="../../css/pictures.css"/>
 
-    <link type="image/png" rel="icon" href="images/favicon.png" />
+    <link type="image/png" rel="icon" href="../../images/favicon.png" />
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jqmenu.js"></script>
+    <script type="text/javascript" src="../../js/jqmenu.js"></script>
 </head>
 <body>
-<main>
 <header>
-    <div id="imageContainer">
-        <a href="index.html">
-        <img src="../../images/csdm.png" id="LOGO" alt="Robert Gordon University Aberdeen - School of Computing Science and Digital Media"/>
-        </a>
-    </div>
-    <div id="quicklinkContainer">
-        <ul id="rgulinks">
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="https://you.rgu.ac.uk/">RGyou</a></li>
-            <li><a href="#">Staff and Current Students</a></li>
-        </ul>
-        <input type="submit" id="mySubmit" value="Search">
-        <input type="search" id="mySearch" placeholder="Search...">
-    </div>
+
+    <!-- Robert Gordon University logo -->
+    <a href="../../index.html">
+        <img src="../../images/csdm.png" id="rguLogo" alt="Robert Gordon University Aberdeen - School of Computing Science and Digital Media"/>
+    </a>
+
+    <!-- Quick link bar -->
+    <ul id="quickLinks">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="https://you.rgu.ac.uk/">RGyou</a></li>
+        <li><a href="#">Staff and Current Students</a></li>
+    </ul>
+    
+    <!-- Search box -->
+    <input type="submit" id="mySubmit" value="Search">
+    <input type="search" id="mySearch" placeholder="Search...">
+    
+
 </header>
-        <nav id="nav2">
-          <ul>
-	        <li>
-              <a href="../../index.html">Home</a>
-	        </li>
-	    
-		    <li>
-              <a href="index.html" class="current-page-highlight">About us</a>
-          
-              <ul class="submenu">
+<nav>
+    <ul>
+        <li>
+            <a href="../../index.html">Home</a>
+        </li>
+
+        <li>
+            <a href="index.html" class="current-page-highlight">About us</a>
+
+            <ul class="submenu">
                 <li><a href="#">Contact us</a></li>
                 <li><a href="#">Staff list</a></li>
                 <li><a href="#">Privacy</a></li>
-              </ul>
-            </li>
-          
-		    <li>
-              <a href="../news/index.html">News &amp; Research</a>
-          
-              <ul class="submenu">
+            </ul>
+        </li>
+
+        <li>
+            <a href="../news/index.html">News &amp; Research</a>
+
+            <ul class="submenu">
                 <li><a href="#">Latest News</a></li>
                 <li><a href="#">Research</a></li>
                 <li><a href="#">Internships</a></li>
-              </ul>
-		    </li>
-		
-		    <li>
-              <a href="../courses/index.html">Our Courses</a>
-		
-		      <ul class="submenu">
+            </ul>
+        </li>
+
+        <li>
+            <a href="../courses/index.html">Our Courses</a>
+
+            <ul class="submenu">
                 <li><a href="#">Prospectus</a></li>
                 <li><a href="#">Part time</a></li>
                 <li><a href="#">Full time</a></li>
                 <li><a href="#">Distance Learning</a></li>
-              </ul>
-		    </li>
-		
-	    	<li>
-              <a href="../support/index.html">Support</a>
-          
-              <ul class="submenu">
+            </ul>
+        </li>
+
+        <li>
+            <a href="../support/index.html">Support</a>
+
+            <ul class="submenu">
                 <li><a href="#">Software</a></li>
                 <li><a href="#">Research Rooms</a></li>
                 <li><a href="#">Student Support</a></li>
-              </ul>
-            </li>
-        
-            <li>
-              <a href="../resources/index.html">RGU Resources</a>
-          
-              <ul class="submenu">
+            </ul>
+        </li>
+
+        <li>
+            <a href="../resources/index.html">RGU Resources</a>
+
+            <ul class="submenu">
                 <li><a href="http://campusmoodle.rgu.ac.uk/" target="_blank">Campus Moodle</a></li>
                 <li><a href="http://you.rgu.ac.uk/" target="_blank">RGyoU</a></li>
                 <li><a href="http://www.rgu.ac.uk/file/rgu-garthdee-campus-map-pdf-434kb" target="_blank">Campus Map</a></li>
-              </ul>
-            </li>
-        
-            <li>
-              <a href="../talent/index.html">Talent Exchange</a>
-            </li>
-	      </ul>
+            </ul>
+        </li>
 
-        </nav>
+        <li>
+            <a href="../talent/index.html">Talent Exchange</a>
+        </li>
+    </ul>
+
+</nav>
 <main class="grid-container">
     <section>
         <img src="../../images/staff.jpg" alt="Staff" id="staff"/>
@@ -138,24 +141,24 @@
 </main>
 
 <footer>
-    <section>
-        <hr>
-        <h3 id="title">Connect with us:</h3>
-        <hr id="line2">
-        <a class="socialmedia" href="https://www.facebook.com/robertgordonuniversity/" target="_blank">
-            <img id="facebook" src="../../images/facebooklogo.jpg" alt="Facebook">
+    <section id="socialMedia">
+        <hr />
+        <h3>Connect with us:</h3>
+        <hr />
+        <a href="https://www.facebook.com/robertgordonuniversity/" target="_blank">
+            <img id="facebook" src="../../images/social-media/facebooklogo.jpg" alt="Facebook">
         </a>
-        <a class="socialmedia" href="https://twitter.com/RobertGordonUni" target="_blank">
-            <img id="twitter" src="../../images/twitterlogo.png" alt="Twitter">
+        <a href="https://twitter.com/RobertGordonUni" target="_blank">
+            <img id="twitter" src="../../images/social-media/twitterlogo.png" alt="Twitter">
         </a>
-        <a class="socialmedia" href="https://www.instagram.com/robertgordonuni/" target="_blank">
-            <img id="insta" src="../../images/instagramlogo.png" alt="Instagram">
+        <a href="https://www.instagram.com/robertgordonuni/" target="_blank">
+            <img id="insta" src="../../images/social-media/instagramlogo.png" alt="Instagram">
         </a>
-        <a class="socialmedia" href="https://www.youtube.com/user/RobertGordonUni" target="_blank">
-            <img id="youtube" src="../../images/youtubelogo.png" alt="YouTube">
+        <a href="https://www.youtube.com/user/RobertGordonUni" target="_blank">
+            <img id="youtube" src="../../images/social-media/youtubelogo.png" alt="YouTube">
         </a>
     </section>
-    <section id="directorycont">
+    <section id="assortedLinks">
         <tr>
             <a href="#">Accessibility</a>
             <a href="#">Site Map</a>
@@ -164,13 +167,12 @@
             <a href="#">Privacy and Cookie Statement</a>
             <a href="#">Complaints</a>
             <a href="#">Fine copy</a>
-            <a href="#">Copywrite</a>
+            <a href="#">Copyright</a>
     </section>
-    <section id="copywrite">
-        <h6>Copywrite &copy Apollo Jenny 13 (Robert Gordons University)</h6>
+    <section id="copyright">
+        <h6>Copyright &copy Apollo Jenny 13 (Robert Gordons University)</h6>
     </section>
 </footer>
 
-</main>
 </body>
 </html>
