@@ -235,3 +235,32 @@ footer
   background-color: #770077;
   color: #ffffff;
 }
+
+/***************************************************************
+*                                                              *
+*  ANYTHING ELSE USED COMMONLY                                 *
+*                                                              * 
+*  Things such as the article class which are used on most     *
+*  pages. These are all used throughout the website.           *
+*                                                              *
+***************************************************************/
+
+/***********************************************
+*                                              *
+*  ARTICLES                                    *
+*                                              *
+*  Used at the sides of pages. Essentially a   *
+*  section at the side containing information  *
+*                                              *
+***********************************************/
+
+.article
+{
+  width:100%;
+  height:100%;
+  border-color: #781C7D;
+  border-style: outset;
+  margin-bottom: 20px;
+  padding-left:5px;
+  padding-right:5px;
+}
