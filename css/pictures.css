@@ -13,10 +13,11 @@
     float:left;
     padding-right:10px;
 }
-#SIWBCorridor {
+#sirIanCorridor {
     width:100%;
     float:left;
-    padding-right:10px;
+    margin-bottom: 20px;
+    border:1px solid #000000;
 }
 #openDay {
     width:200px;
@@ -29,11 +30,17 @@
 }
 #lab {
     width:50%;
-    padding-right;10px;
+    padding-right:10px;
 }
 
 #library {
     width: 200px;
     float: left;
     padding-right: 10px;
+}
+#maclab{
+    height:200px;
+    width: 400px;
+    margin-left: 50px;
+    margin-bottom: 30px;
 }

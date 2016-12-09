@@ -1,51 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>RGU School of Computing Science and Digital Media</title>
 
-    <link rel="stylesheet" href="css/template.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="coverflow.css" />
-    <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css" />
-    <link rel="stylesheet" href="css/pictures.css"/>
+    <!-- CSS containing code used throughout the website -->
+    <link rel="stylesheet" href="/cm1016g6/css/common.css" />
+    <link rel="stylesheet" href="/cm1016g6/css/page-specific.css" />
+    <link rel="stylesheet" href="/cm1016g6/css/navbar.css" />
+    
+    <!-- Unsemantic -->
+    <link rel="stylesheet" href="/cm1016g6/css/unsemantic-grid-responsive-tablet.css" />
+    
+    <!-- CSS making pictures specific sizes -->
+    <link rel="stylesheet" href="/cm1016g6/css/pictures.css"/>
 
-    <link type="image/png" rel="icon" href="images/favicon.png" />
+    <!-- Favicon showing in the browser -->
+    <link type="image/png" rel="icon" href="/cm1016g6/images/favicon.png" />
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jqmenu.js"></script>
-    <script type="text/javascript" src="sly.js"></script>
+    <!-- Coverflow is used for the image slideshow on the front page -->
+    <link rel="stylesheet" href="/cm1016g6/css/coverflow.css" />
 
-
+    <!-- Scripts jQuery, sly.js and custom jQuery code for the navigation bar -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/cm1016g6/js/jqmenu.js"></script>
+    <script type="text/javascript" src="/cm1016g6/js/sly.js"></script>
 </head>
 
 <body>
-<main>
 <header>
-    <div id="imageContainer">
-        <a href="index.html">
-            <img src="images/csdm.png" id="LOGO" alt="Robert Gordon University Aberdeen - School of Computing Science and Digital Media"/>
-        </a>
-    </div>
-    <div id="quicklinkContainer">
-        <ul id="rgulinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/about/index.html">About</a></li>
-            <li><a href="https://you.rgu.ac.uk/">RGyou</a></li>
-            <li><a href="#">Staff and Current Students</a></li>
-        </ul>
-        <input type="submit" id="mySubmit" value="Search">
-        <input type="search" id="mySearch" placeholder="Search...">
-    </div>
+
+    <!-- Robert Gordon University logo -->
+    <a href="/cm1016g6">
+        <img src="/cm1016g6/images/csdm.png" id="rguLogo" alt="Robert Gordon University Aberdeen - School of Computing Science and Digital Media"/>
+    </a>
+
+    <!-- Quick link bar -->
+    <ul id="quickLinks">
+        <li><a href="/cm1016g6">Home</a></li>
+        <li><a href="/cm1016g6/pages/about">About</a></li>
+        <li><a href="https://you.rgu.ac.uk/">RGyou</a></li>
+        <li><a href="#">Staff and Current Students</a></li>
+    </ul>
+    
+    <!-- Search box -->
+    <input type="submit" id="mySubmit" value="Search">
+    <input type="search" id="mySearch" placeholder="Search...">
+    
+
 </header>
-<nav id="nav2">
+<nav>
     <ul>
         <li>
-            <a href="index.html" class="current-page-highlight">Home</a>
+            <a href="/cm1016g6/index.html" class="current-page-highlight">Home</a>
         </li>
 
         <li>
-            <a href="pages/about/index.html">About us</a>
+            <a href="/cm1016g6/pages/about/index.html">About us</a>
 
             <ul class="submenu">
                 <li><a href="#">Contact us</a></li>
@@ -55,7 +66,7 @@
         </li>
 
         <li>
-            <a href="pages/news/index.html">News &amp; Research</a>
+            <a href="/cm1016g6/pages/news/index.html">News &amp; Research</a>
 
             <ul class="submenu">
                 <li><a href="#">Latest News</a></li>
@@ -65,7 +76,7 @@
         </li>
 
         <li>
-            <a href="pages/courses/index.html">Our Courses</a>
+            <a href="/cm1016g6/pages/courses/index.html">Our Courses</a>
 
             <ul class="submenu">
                 <li><a href="#">Prospectus</a></li>
@@ -76,7 +87,7 @@
         </li>
 
         <li>
-            <a href="pages/support/index.html">Support</a>
+            <a href="/cm1016g6/pages/support/index.html">Support</a>
 
             <ul class="submenu">
                 <li><a href="#">Software</a></li>
@@ -86,7 +97,7 @@
         </li>
 
         <li>
-            <a href="pages/resources/index.html">RGU Resources</a>
+            <a href="/cm1016g6/pages/resources/index.html">RGU Resources</a>
 
             <ul class="submenu">
                 <li><a href="http://campusmoodle.rgu.ac.uk/" target="_blank">Campus Moodle</a></li>
@@ -96,7 +107,7 @@
         </li>
 
         <li>
-            <a href="pages/talent/index.html">Talent Exchange</a>
+            <a href="/cm1016g6/pages/talent/index.html">Talent Exchange</a>
         </li>
     </ul>
 
@@ -125,7 +136,7 @@
 
 
         <!-- Following script should always follow Coverflow HTML markup, or even better, added to the bottom of the page -->
-        <script src="coverflow.js">
+        <script src="/cm1016g6/js/coverflow.js">
 
             /***********************************************
              * Coverflow Image Gallery: Dynamic Drive DHTML code library (www.dynamicdrive.com)
@@ -138,7 +149,7 @@
     <section class="grid-66">
         <!--welcome section begin-->
         <h2>Welcome to The School of Computing and Digital Media </h2>
-        <img src="images/lecturers.jpeg" alt="lecturers" id="lecturers"/>
+        <img src="/cm1016g6/images/lecturers.jpeg" alt="lecturers" id="lecturers"/>
         <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
         <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
         <h3>Lorem Ipsum Dolor Sit</h3>
@@ -147,7 +158,7 @@
         <h3>Lorem ipsum Dolor Sit</h3>
         <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
         <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
-        <img src="images/SIWB-corridor.jpg" alt="SIWB Corridor" id="SIWBCorridor" />
+        <img src="/cm1016g6/images/SIWB-corridor.jpg" alt="SIWB Corridor" id="sirIanCorridor" />
         <iframe width=100% height="315" src="https://www.youtube.com/embed/Ps11CDkNS44" frameborder="0" allowfullscreen></iframe>
 
     </section>
@@ -158,27 +169,24 @@
     <!--welcome section end-->
     <aside class="grid-33">
         <!--news article side bar begin-->
-        <article id="article1">
+        <article class="article">
             <h3>Latest News</h3>
             <h4>Lorem Ipsum Dolor</h4>
-            <img src="images/winners.JPG" alt="winners" id="winners"/>
+            <img src="/cm1016g6/images/winners.JPG" alt="winners" id="winners"/>
             <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
-            <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.<a href="pages/news/index.html">Read more... </a></p>
+            <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.<a href="/cm1016g6/pages/news/index.html">Read more... </a></p>
         </article>
         <!--News article side bar end-->
 
         <!-- Events Start-->
-        <article id="article2">
+        <article class="article">
             <h3>Upcoming Events</h3>
             <h4>Lorem Ipsum Dolor</h4>
-            <img src="images/sirianwoodbuilding.jpg" alt="sirianwoodbuilding" id="sirianwoodbuilding" />
+            <img src="/cm1016g6/images/sirianwoodbuilding.jpg" alt="sirianwoodbuilding" id="sirianwoodbuilding" />
             <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
             <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.</p>
-            <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.<a href="pages/news/index.html">Read more... </a></p>
+            <p>Lorem ipsum dolor sit amet, an cum mundi molestiae definitionem, quidam disputationi no mel, facilis probatus pri an. Facilis percipitur pro ut, has ei nullam omittantur, solet gubergren intellegebat mel ex. Eu purto ancillae gloriatur sit, consul saperet tacimates ad his. Eu pro labores atomorum dissentiet, qui tritani senserit explicari at.<a href="/cm1016g6/pages/news/index.html">Read more... </a></p>
         </article>
-
-
-
 
         <article><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2166.0905207161954!2d-2.1432107840159933!3d57.11841608094051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488410483d2f0941%3A0x5d8969688e77366a!2sRobert+Gordon+University+Aberdeen%2C+Garthdee+Campus!5e0!3m2!1sen!2suk!4v1480004340982" width="325" height="200" frameborder="0" style="border:0" id="map"allowfullscreen></iframe></article>
     </aside>
@@ -186,24 +194,24 @@
 
 </main>
 <footer>
-    <section>
-        <hr>
-        <h3 id="title">Connect with us:</h3>
-        <hr id="line2">
-        <a class="socialmedia" href="https://www.facebook.com/robertgordonuniversity/" target="_blank">
-            <img id="facebook" src="images/facebooklogo.jpg" alt="Facebook">
+    <section id="socialMedia">
+        <hr />
+        <h3>Connect with us:</h3>
+        <hr />
+        <a href="https://www.facebook.com/robertgordonuniversity/" target="_blank">
+            <img id="facebook" src="/cm1016g6/images/social-media/facebooklogo.jpg" alt="Facebook">
         </a>
-        <a class="socialmedia" href="https://twitter.com/RobertGordonUni" target="_blank">
-            <img id="twitter" src="images/twitterlogo.png" alt="Twitter">
+        <a href="https://twitter.com/RobertGordonUni" target="_blank">
+            <img id="twitter" src="/cm1016g6/images/social-media/twitterlogo.png" alt="Twitter">
         </a>
-        <a class="socialmedia" href="https://www.instagram.com/robertgordonuni/" target="_blank">
-            <img id="insta" src="images/instagramlogo.png" alt="Instagram">
+        <a href="https://www.instagram.com/robertgordonuni/" target="_blank">
+            <img id="insta" src="/cm1016g6/images/social-media/instagramlogo.png" alt="Instagram">
         </a>
-        <a class="socialmedia" href="https://www.youtube.com/user/RobertGordonUni" target="_blank">
-            <img id="youtube" src="images/youtubelogo.png" alt="YouTube">
+        <a href="https://www.youtube.com/user/RobertGordonUni" target="_blank">
+            <img id="youtube" src="/cm1016g6/images/social-media/youtubelogo.png" alt="YouTube">
         </a>
     </section>
-    <section id="directorycont">
+    <section id="assortedLinks">
         <tr>
             <a href="#">Accessibility</a>
             <a href="#">Site Map</a>
@@ -212,12 +220,11 @@
             <a href="#">Privacy and Cookie Statement</a>
             <a href="#">Complaints</a>
             <a href="#">Fine copy</a>
-            <a href="#">Copywrite</a>
+            <a href="#">Copyright</a>
     </section>
-    <section id="copywrite">
-        <h6>Copywrite &copy Apollo Jenny 13 (Robert Gordons University)</h6>
+    <section id="copyright">
+        <h6>Copyright &copy Apollo Jenny 13 (Robert Gordons University)</h6>
     </section>
 </footer>
-</main>
 </body>
 </html>

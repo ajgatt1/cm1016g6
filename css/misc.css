@@ -1,0 +1,25 @@
+/*
+
+I don't know where this was used, so it lives here in a giant comment at the moment. C-style comments are fun.
+
+.newsSnippet h3{
+	font-family: "Oswald";
+	color: #781C7D;
+	margin-bottom: -5px;
+	margin-left: 5px;
+	text-decoration:underline;
+
+}
+
+.newsSnippet{
+	width:300px;
+	height:150px;
+	border-color: #781C7D;
+	border-style: solid;
+}
+
+.newsSnippet p {
+	margin-left:5px;
+
+}
+*/
