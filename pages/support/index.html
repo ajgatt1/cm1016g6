@@ -21,6 +21,22 @@
     <!-- Scripts jQuery, sly.js and custom jQuery code for the navigation bar -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="/cm1016g6/js/jqmenu.js"></script>
+    <style type="text/css">
+
+        .controlstyle a{ /*links inside DIV sizecontroldiv*/
+            outline:none;
+        }
+
+        .controlstyle a img{ /*image links inside DIV sizecontroldiv*/
+            border-width:0;
+        }
+
+        .controlstyle a.selectedcontrol img{ /*selected control's image*/
+            border-bottom:4px solid darkred;
+        }
+
+    </style>
+
 </head>
 <body>
 
@@ -159,13 +175,6 @@
                 </form>
             </section>
 
-            <div id="sizecontroldiv" class="controlstyle">
-
-                Font levels controls: <a href="#fontsize-1"><img src="/cm1016g6/images/-1.gif" /></a> <a href="#fontsize0"><img src="/cm1016g6/images/0.gif" /></a> <a href="#fontsize1"><img src="/cm1016g6/images/1.gif" /></a> <a href="#fontsize2"><img src="/cm1016g6/images/2.gif" /></a>
-
-            </div>
-
-            <p>Arbitrary link control: <a href="javascript:mytextsizer.setFontLevel(0)">Set font level to default</a>
         </main>
 
 <footer>
