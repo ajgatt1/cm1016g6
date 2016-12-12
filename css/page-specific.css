@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 
-.mainnews {
+.mainnews
+{
     width: 500px;
     height: 670px;
     float: left;
@@ -9,21 +10,19 @@
     margin-right: 5px;
     margin-right:30px;
 }
-.mainnews:hover{
+.mainnews:hover
+{
     background-color: #770077;
 }
-.news2{
+.news2
+{
     height:200px;
     width: 400px;
     margin-bottom: 30px;
 }
-#maclab{
-    height:200px;
-    width: 400px;
-    margin-left: 50px;
-    margin-bottom: 30px;
-}
-#headerban{
+
+#headerban
+{
     height: 300px;
     width: 960px;
     margin-left:20px;
@@ -31,27 +30,24 @@
     margin-right: 20px;
     margin-top:20px;
 }
-#h1{
-    font-family: Bungee, Sanserif;
-    font-size: 30px;
-    color: #666666;
-}
-#caption{
-    display: block;
-    background-color: #996699;
-}
-#p{
-    font-family: "Adobe Hebrew";
-    text-align: center;
-}
-.instaem{
-    float: right;
-    height: 500px;
-    width: 500px;
 
+/* For courses page * DO NOT REMOVE THIS COMMENT * */
+
+.courseInfo
+{
+	width:44%;
+	margin:1%;
+	padding:1%;
+	display:inline-block;
 }
-.twitter-timeline{
-    float: left;
-    height: 500px;
-    width: 500px;
+
+.courseInfo img
+{
+	float:left;
+	padding-right:5px;
+}
+
+.videoLink
+{
+	float:right;
 }
