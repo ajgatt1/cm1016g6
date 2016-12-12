@@ -142,22 +142,18 @@
             </aside>
 
 
-            <section class="SupportForm">
+            <section class="SupportForm" id="SupportForm">
                 <h2>Got a question? Contact us below.</h2>
-                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                    <div class="row">
-                        <label for="name">Your Name:</label><br />
-                        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-                    </div>
-                    <div class="row">
-                        <label for="email">Your Email:</label><br />
-                        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-                    </div>
-                    <div class="row">
-                        <label for="message">Your Message:</label><br />
-                        <textarea id="message" class="input" name="message" rows="20" cols="70"></textarea><br />
-                    </div>
-                    <input id="submit_button" type="submit" value="Send email" />
+                form id="ContactForm">
+                Your Name: <input type="text" name="InputName" />
+                <br>
+                Your Email: <input type="email" name="InputEmail" />
+                <br>
+                Your Message: <br />
+                    <textarea rows ="20" cols="70" >
+                    </textarea>
+                <br>
+                <input type="submit" name="submitbutton" value="Submit" />
                 </form>
             </section>
 
