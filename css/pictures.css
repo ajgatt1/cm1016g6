@@ -29,8 +29,9 @@
     padding-right:10px;
 }
 #lab {
-    width:50%;
-    padding-right:10px;
+    width: 960px;
+    height: 300px;
+    margin-left: 30px;
 }
 
 #library {
