@@ -178,7 +178,8 @@ footer
   margin: 20px;
 }
 
-#assortedLinks a:hover
+#assortedLinks a:hover,
+#assortedLinks a:focus
 {
   color:#770077;
 }
