@@ -48,3 +48,10 @@
 #mainImage{
 	width:100%;
 }
+#wifi_icon, #email_icon, #my_apps_icon {
+    margin:50px;
+}
+
+#resources_icons {
+    text-align:center;
+}
